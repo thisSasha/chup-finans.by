@@ -1,0 +1,25 @@
+header,main,footer{
+    background-color: var(--background-color);
+    color: var(--color);
+    text-align: center;
+}
+header{
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+    top: 0%;
+    left: 0%;
+    background-color: var(--green-theme);
+}
+header *{
+    color: var(--color);
+}
+.news{
+    height: 500%;
+    overflow-x: scroll;
+    border: 5px solid var(--color);
+}
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}

@@ -1,0 +1,93 @@
+* {
+    transition: 500ms;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    transition: 450ms;
+    color: var(--color);
+    background-color: var(--background-color);
+}
+
+*[empty] {
+    visibility: hidden;
+}
+
+.text a {
+    border-left: 2px solid var(--color);
+    display: inline-block;
+    position: absolute;
+    width: 10%;;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: auto 3% auto 3%;
+    text-decoration: none;
+}
+
+nav {
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    transition: 460ms;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: var(--grey-theme);
+    width: 100vw;
+    height: 5vh;
+}
+
+nav * {
+    transition: 500ms;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 1% 0 1%;
+    padding: 0%;
+    display: inline-block;
+    color: var(--background-color);
+    background-color: none;
+}
+
+.theme {
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+    transition: 380ms;
+    background-color: none;
+    border: none;
+    top: 20%;
+}
+
+.home_nav {
+    left: 0%;
+}
+
+.serv_nav {
+    left: 15%
+}
+.news_nav{
+    left: 30%;
+}
+.cont_nav{
+    left: 49%;
+}
+.o3{
+    left: 65%;
+}
+.home_nav:hover{
+    border-left: none;
+}
+.serv_nav:hover{
+    border-left: none;
+}
+.news_nav:hover{
+    border-left: none;
+}
+.cont_nav:hover{
+    border-left: none;
+}
+.o3:hover{
+    border-left: none;
+}
